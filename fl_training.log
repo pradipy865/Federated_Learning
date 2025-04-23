@@ -1,0 +1,1422 @@
+2025-04-20 23:43:21,647 [INFO] Starting client with 10000 samples
+2025-04-20 23:43:21,647 [INFO] Starting client with 10000 samples
+2025-04-20 23:43:21,647 [INFO] Starting client with 10000 samples
+2025-04-20 23:43:21,647 [INFO] Starting client with 10000 samples
+2025-04-20 23:43:21,647 [INFO] Starting client with 10000 samples
+2025-04-20 23:43:21,668 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:43:21,668 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:43:21,668 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:43:21,668 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:43:21,668 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:43:21,717 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:43:21,720 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:43:21,727 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:43:21,728 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:43:21,728 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:43:21,729 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:43:21,729 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:43:21,729 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:43:21,729 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:43:21,729 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:43:21,930 [DEBUG] gRPC channel closed
+2025-04-20 23:43:21,930 [DEBUG] gRPC channel closed
+2025-04-20 23:43:21,930 [DEBUG] gRPC channel closed
+2025-04-20 23:43:21,932 [DEBUG] gRPC channel closed
+2025-04-20 23:44:37,034 [INFO] ⏳ Waiting 5 seconds to ensure server is ready...
+2025-04-20 23:44:42,299 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:44:42,299 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:44:42,299 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:44:42,299 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:44:42,299 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:44:42,315 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:44:42,315 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:44:42,316 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:44:42,316 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:44:42,317 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:44:42,318 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:44:42,319 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:44:42,320 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:44:42,321 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:44:42,322 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:44:42,323 [DEBUG] ChannelConnectivity.CONNECTING
+2025-04-20 23:44:42,323 [DEBUG] ChannelConnectivity.CONNECTING
+2025-04-20 23:44:42,325 [DEBUG] ChannelConnectivity.CONNECTING
+2025-04-20 23:44:42,332 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:44:42,332 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:44:42,332 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:44:42,332 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:44:42,332 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:44:42,534 [DEBUG] gRPC channel closed
+2025-04-20 23:44:42,534 [DEBUG] gRPC channel closed
+2025-04-20 23:44:42,534 [DEBUG] gRPC channel closed
+2025-04-20 23:44:42,534 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:44:42,534 [DEBUG] gRPC channel closed
+2025-04-20 23:44:42,535 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:44:42,535 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:44:42,540 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:46:34,256 [DEBUG] gRPC channel closed
+2025-04-20 23:46:34,257 [ERROR] ❌ gRPC error: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-04-20T23:46:34.252794+05:30", grpc_status:14, grpc_message:"Socket closed"}"
+>
+2025-04-20 23:46:34,259 [INFO] ✅ All clients have finished training.
+2025-04-20 23:46:34,260 [INFO] 🔍 Evaluating final global model on central test set...
+2025-04-20 23:46:58,912 [INFO] ⏳ Waiting 5 seconds to ensure server is ready...
+2025-04-20 23:47:04,100 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:47:04,100 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:47:04,101 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:47:04,101 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:47:04,102 [INFO] 🚀 Starting client with 10000 samples
+2025-04-20 23:47:04,117 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:47:04,117 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:47:04,118 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:47:04,118 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:47:04,118 [INFO] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:47:04,119 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:47:04,120 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:47:04,121 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:47:04,122 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:47:04,123 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:47:04,123 [DEBUG] ChannelConnectivity.IDLE
+2025-04-20 23:47:04,123 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:47:04,129 [DEBUG] ChannelConnectivity.READY
+2025-04-20 23:47:04,323 [DEBUG] gRPC channel closed
+2025-04-20 23:47:04,323 [DEBUG] gRPC channel closed
+2025-04-20 23:47:04,324 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:47:04,325 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:47:04,333 [DEBUG] gRPC channel closed
+2025-04-20 23:47:04,333 [DEBUG] gRPC channel closed
+2025-04-20 23:47:04,333 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:47:04,334 [ERROR] ❌ Unexpected exception in client thread: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 42, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 950, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:50:10,394 [INFO] [MainThread] ⏳ Waiting 5s to ensure server is ready...
+2025-04-20 23:50:15,589 [INFO] [ClientThread-5] 🚀 Client-5 started with 10000 samples
+2025-04-20 23:50:15,589 [INFO] [ClientThread-4] 🚀 Client-4 started with 10000 samples
+2025-04-20 23:50:15,589 [INFO] [ClientThread-1] 🚀 Client-1 started with 10000 samples
+2025-04-20 23:50:15,590 [INFO] [ClientThread-3] 🚀 Client-3 started with 10000 samples
+2025-04-20 23:50:15,590 [INFO] [ClientThread-2] 🚀 Client-2 started with 10000 samples
+2025-04-20 23:50:15,611 [INFO] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:50:15,612 [INFO] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:50:15,612 [INFO] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:50:15,612 [INFO] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:50:15,612 [INFO] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:50:15,616 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:50:15,617 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:50:15,618 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:50:15,619 [DEBUG] [Thread-12 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:50:15,627 [DEBUG] [Thread-17 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:50:15,628 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.READY
+2025-04-20 23:50:15,628 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.READY
+2025-04-20 23:50:15,628 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.READY
+2025-04-20 23:50:15,628 [DEBUG] [Thread-12 (_run)] ChannelConnectivity.READY
+2025-04-20 23:50:15,628 [DEBUG] [Thread-17 (_run)] ChannelConnectivity.READY
+2025-04-20 23:50:15,828 [DEBUG] [ClientThread-4] gRPC channel closed
+2025-04-20 23:50:15,828 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-20 23:50:15,828 [ERROR] [ClientThread-4] ❌ Client-4 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:50:15,828 [ERROR] [ClientThread-5] ❌ Client-5 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:50:15,829 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-20 23:50:15,830 [DEBUG] [ClientThread-2] gRPC channel closed
+2025-04-20 23:50:15,834 [ERROR] [ClientThread-3] ❌ Client-3 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:50:15,834 [ERROR] [ClientThread-2] ❌ Client-2 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:54:09,260 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-20 23:54:09,263 [ERROR] [ClientThread-1] ❌ Client-1 gRPC error: <_MultiThreadedRendezvous of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "Socket closed"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Socket closed", grpc_status:14, created_time:"2025-04-20T23:54:09.245096+05:30"}"
+>
+2025-04-20 23:54:09,267 [INFO] [MainThread] ✅ All clients have finished training.
+2025-04-20 23:54:09,267 [INFO] [MainThread] 🔍 Evaluating final global model on central test set...
+2025-04-20 23:56:01,283 [INFO] [MainThread] ⏳ Waiting 5s to ensure server is ready...
+2025-04-20 23:56:06,478 [INFO] [ClientThread-4] 🚀 Client-4 started with 10000 samples
+2025-04-20 23:56:06,478 [INFO] [ClientThread-1] 🚀 Client-1 started with 10000 samples
+2025-04-20 23:56:06,478 [INFO] [ClientThread-3] 🚀 Client-3 started with 10000 samples
+2025-04-20 23:56:06,478 [INFO] [ClientThread-2] 🚀 Client-2 started with 10000 samples
+2025-04-20 23:56:06,478 [INFO] [ClientThread-5] 🚀 Client-5 started with 10000 samples
+2025-04-20 23:56:06,498 [INFO] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:56:06,499 [INFO] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:56:06,499 [INFO] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:56:06,499 [INFO] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:56:06,500 [INFO] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:56:06,502 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:56:06,513 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:56:06,514 [DEBUG] [Thread-10 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:56:06,515 [DEBUG] [Thread-15 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:56:06,516 [DEBUG] [Thread-18 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:56:06,517 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.READY
+2025-04-20 23:56:06,517 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.READY
+2025-04-20 23:56:06,517 [DEBUG] [Thread-10 (_run)] ChannelConnectivity.READY
+2025-04-20 23:56:06,517 [DEBUG] [Thread-15 (_run)] ChannelConnectivity.READY
+2025-04-20 23:56:06,518 [DEBUG] [Thread-18 (_run)] ChannelConnectivity.READY
+2025-04-20 23:56:06,718 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-20 23:56:06,718 [ERROR] [ClientThread-3] ❌ Client-3 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:56:06,719 [DEBUG] [ClientThread-2] gRPC channel closed
+2025-04-20 23:56:06,719 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-20 23:56:06,719 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-20 23:56:06,723 [ERROR] [ClientThread-2] ❌ Client-2 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:56:06,723 [ERROR] [ClientThread-1] ❌ Client-1 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:56:06,723 [ERROR] [ClientThread-5] ❌ Client-5 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in client_fn
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:57:55,653 [INFO] [MainThread] 📦 Loading and splitting dataset...
+2025-04-20 23:57:55,750 [INFO] [MainThread] ⏳ Waiting 5 seconds to ensure server is ready...
+2025-04-20 23:58:00,978 [INFO] [ClientThread-4] 🚀 Client-4 started with 10000 samples
+2025-04-20 23:58:00,978 [INFO] [ClientThread-3] 🚀 Client-3 started with 10000 samples
+2025-04-20 23:58:00,978 [INFO] [ClientThread-5] 🚀 Client-5 started with 10000 samples
+2025-04-20 23:58:00,978 [INFO] [ClientThread-2] 🚀 Client-2 started with 10000 samples
+2025-04-20 23:58:00,978 [INFO] [ClientThread-1] 🚀 Client-1 started with 10000 samples
+2025-04-20 23:58:00,984 [INFO] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:58:00,984 [INFO] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:58:00,984 [INFO] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:58:00,985 [INFO] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:58:00,985 [INFO] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-20 23:58:00,996 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:58:00,998 [DEBUG] [Thread-7 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:58:00,999 [DEBUG] [Thread-12 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:58:01,000 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.CONNECTING
+2025-04-20 23:58:01,000 [DEBUG] [Thread-16 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:58:01,000 [DEBUG] [Thread-19 (_run)] ChannelConnectivity.IDLE
+2025-04-20 23:58:01,000 [DEBUG] [Thread-7 (_run)] ChannelConnectivity.CONNECTING
+2025-04-20 23:58:01,000 [DEBUG] [Thread-12 (_run)] ChannelConnectivity.CONNECTING
+2025-04-20 23:58:01,001 [DEBUG] [Thread-16 (_run)] ChannelConnectivity.READY
+2025-04-20 23:58:01,001 [DEBUG] [Thread-21 (_run)] ChannelConnectivity.READY
+2025-04-20 23:58:01,001 [DEBUG] [Thread-19 (_run)] ChannelConnectivity.READY
+2025-04-20 23:58:01,002 [DEBUG] [Thread-7 (_run)] ChannelConnectivity.READY
+2025-04-20 23:58:01,002 [DEBUG] [Thread-12 (_run)] ChannelConnectivity.READY
+2025-04-20 23:58:01,205 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-20 23:58:01,205 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-20 23:58:01,205 [ERROR] [ClientThread-5] ❌ Client-5 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:58:01,205 [DEBUG] [ClientThread-2] gRPC channel closed
+2025-04-20 23:58:01,206 [ERROR] [ClientThread-1] ❌ Client-1 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:58:01,205 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-20 23:58:01,210 [ERROR] [ClientThread-2] ❌ Client-2 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-20 23:58:01,211 [ERROR] [ClientThread-3] ❌ Client-3 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-21 00:04:08,756 [INFO] [MainThread] 📦 Loading and splitting dataset...
+2025-04-21 00:04:08,851 [INFO] [MainThread] ⏳ Waiting 5 seconds to ensure server is ready...
+2025-04-21 00:04:14,077 [INFO] [ClientThread-4] 🚀 Client-4 started with 10000 samples
+2025-04-21 00:04:14,078 [INFO] [ClientThread-1] 🚀 Client-1 started with 10000 samples
+2025-04-21 00:04:14,078 [INFO] [ClientThread-5] 🚀 Client-5 started with 10000 samples
+2025-04-21 00:04:14,078 [INFO] [ClientThread-2] 🚀 Client-2 started with 10000 samples
+2025-04-21 00:04:14,078 [INFO] [ClientThread-3] 🚀 Client-3 started with 10000 samples
+2025-04-21 00:04:14,098 [INFO] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:04:14,098 [INFO] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:04:14,099 [INFO] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:04:14,099 [INFO] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:04:14,099 [INFO] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:04:14,102 [DEBUG] [Thread-4 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:04:14,102 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:04:14,103 [DEBUG] [Thread-10 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:04:14,104 [DEBUG] [Thread-14 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:04:14,114 [DEBUG] [Thread-18 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:04:14,115 [DEBUG] [Thread-4 (_run)] ChannelConnectivity.READY
+2025-04-21 00:04:14,115 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.READY
+2025-04-21 00:04:14,115 [DEBUG] [Thread-10 (_run)] ChannelConnectivity.READY
+2025-04-21 00:04:14,115 [DEBUG] [Thread-14 (_run)] ChannelConnectivity.READY
+2025-04-21 00:04:14,115 [DEBUG] [Thread-18 (_run)] ChannelConnectivity.READY
+2025-04-21 00:04:14,316 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-21 00:04:14,317 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-21 00:04:14,317 [ERROR] [ClientThread-1] ❌ Client-1 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-21 00:04:14,317 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-21 00:04:14,317 [ERROR] [ClientThread-5] ❌ Client-5 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-21 00:04:14,317 [DEBUG] [ClientThread-4] gRPC channel closed
+2025-04-21 00:04:14,321 [ERROR] [ClientThread-3] ❌ Client-3 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-21 00:04:14,322 [ERROR] [ClientThread-4] ❌ Client-4 unexpected exception: 
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 40, in start_client
+    fl.client.start_client(server_address="localhost:8080", client=client)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/app.py", line 275, in start_client
+    task_ins = receive()
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/flwr/client/grpc_client/connection.py", line 118, in receive
+    server_message = next(server_message_iterator)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 543, in __next__
+    return self._next()
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/grpc/_channel.py", line 967, in _next
+    raise StopIteration()
+StopIteration
+2025-04-21 00:08:08,358 [INFO] [MainThread] 📦 Loading and splitting dataset...
+2025-04-21 00:08:08,460 [INFO] [MainThread] ⏳ Waiting 5 seconds for server to be ready...
+2025-04-21 00:08:13,468 [INFO] [ClientThread-1] 🚀 Client-1 attempting to connect...
+2025-04-21 00:08:13,622 [WARNING] [ClientThread-1] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:08:13,650 [DEBUG] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:08:13,651 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:08:13,659 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.CONNECTING
+2025-04-21 00:08:13,660 [DEBUG] [Thread-6 (_run)] ChannelConnectivity.READY
+2025-04-21 00:08:15,473 [INFO] [ClientThread-2] 🚀 Client-2 attempting to connect...
+2025-04-21 00:08:15,519 [WARNING] [ClientThread-2] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:08:15,520 [DEBUG] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:08:15,521 [DEBUG] [Thread-9 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:08:15,521 [DEBUG] [Thread-9 (_run)] ChannelConnectivity.CONNECTING
+2025-04-21 00:08:15,557 [INFO] [ClientThread-1] 
+2025-04-21 00:08:15,558 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.READY
+2025-04-21 00:08:15,558 [INFO] [ClientThread-1] Received: train message 48616b58-3d1e-4e56-98be-95b95cee212e
+2025-04-21 00:08:15,558 [INFO] [ClientThread-2] 
+2025-04-21 00:08:15,559 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:15,559 [INFO] [ClientThread-2] Received: train message 84a4ba55-4707-4a4e-9d17-3485835f10e0
+2025-04-21 00:08:15,562 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:17,481 [INFO] [ClientThread-3] 🚀 Client-3 attempting to connect...
+2025-04-21 00:08:17,638 [WARNING] [ClientThread-3] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:08:17,640 [DEBUG] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:08:17,655 [DEBUG] [Thread-14 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:08:17,656 [DEBUG] [Thread-14 (_run)] ChannelConnectivity.READY
+2025-04-21 00:08:19,490 [INFO] [ClientThread-4] 🚀 Client-4 attempting to connect...
+2025-04-21 00:08:19,532 [WARNING] [ClientThread-4] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:08:19,533 [DEBUG] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:08:19,535 [DEBUG] [Thread-17 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:08:19,547 [DEBUG] [Thread-20 (_run)] ChannelConnectivity.READY
+2025-04-21 00:08:21,495 [INFO] [ClientThread-5] 🚀 Client-5 attempting to connect...
+2025-04-21 00:08:21,535 [WARNING] [ClientThread-5] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:08:21,535 [DEBUG] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:08:21,536 [DEBUG] [Thread-22 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:08:21,570 [DEBUG] [Thread-25 (_run)] ChannelConnectivity.READY
+2025-04-21 00:08:26,936 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:08:26,943 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:08:27,928 [INFO] [ClientThread-3] 
+2025-04-21 00:08:27,928 [INFO] [ClientThread-3] Received: evaluate message 78878034-f601-443f-b5a6-5c9bb97bfbf6
+2025-04-21 00:08:27,929 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:28,819 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:08:28,822 [INFO] [ClientThread-1] 
+2025-04-21 00:08:28,822 [INFO] [ClientThread-4] 
+2025-04-21 00:08:28,822 [INFO] [ClientThread-2] 
+2025-04-21 00:08:28,822 [INFO] [ClientThread-1] Received: train message f4ceb3b1-b1e6-48c8-aef2-3418b112299b
+2025-04-21 00:08:28,822 [INFO] [ClientThread-4] Received: train message 8e8e3e0b-e13f-490d-ac49-e25a7873483c
+2025-04-21 00:08:28,822 [INFO] [ClientThread-2] Received: train message a12c29ef-2666-458f-96b6-37b37715c75a
+2025-04-21 00:08:28,823 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:28,823 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:28,823 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:38,484 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:08:40,240 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:08:40,874 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:08:41,769 [INFO] [ClientThread-2] 
+2025-04-21 00:08:41,769 [INFO] [ClientThread-2] Received: evaluate message 9bc2eb5d-8e7d-45a2-b30b-8c31cb0b24bb
+2025-04-21 00:08:41,770 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:42,473 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:08:42,476 [INFO] [ClientThread-3] 
+2025-04-21 00:08:42,476 [INFO] [ClientThread-5] 
+2025-04-21 00:08:42,476 [INFO] [ClientThread-3] Received: train message 62e84209-8734-4ccd-b978-08627e4db0e5
+2025-04-21 00:08:42,476 [INFO] [ClientThread-4] 
+2025-04-21 00:08:42,476 [INFO] [ClientThread-5] Received: train message f46821a1-0ac4-40ed-a6c6-919c136d0b68
+2025-04-21 00:08:42,477 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:42,477 [INFO] [ClientThread-4] Received: train message d3c1c73b-2585-4d82-923d-b10c5b0e1bad
+2025-04-21 00:08:42,477 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:42,479 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:51,640 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:08:54,439 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:08:55,131 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:08:56,030 [INFO] [ClientThread-5] 
+2025-04-21 00:08:56,030 [INFO] [ClientThread-5] Received: evaluate message d4ed5eda-0d4e-422d-9abe-da15d710adbf
+2025-04-21 00:08:56,030 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:56,728 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:08:56,730 [INFO] [ClientThread-3] 
+2025-04-21 00:08:56,731 [INFO] [ClientThread-5] 
+2025-04-21 00:08:56,731 [INFO] [ClientThread-3] Received: train message 5dd19d49-a993-42bb-9cd8-e38fa432af7c
+2025-04-21 00:08:56,731 [INFO] [ClientThread-1] 
+2025-04-21 00:08:56,731 [INFO] [ClientThread-5] Received: train message 73de2c09-dd2e-4ce1-90c1-83bcdf2d9cf8
+2025-04-21 00:08:56,731 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:56,732 [INFO] [ClientThread-1] Received: train message e21556a1-9d2f-4a59-92e6-a64efdce62bb
+2025-04-21 00:08:56,732 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:08:56,733 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:05,641 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:09:05,932 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:09:07,215 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:09:08,422 [INFO] [ClientThread-1] 
+2025-04-21 00:09:08,422 [INFO] [ClientThread-1] Received: evaluate message 98268737-9c76-4457-b506-94e28ae7dbb8
+2025-04-21 00:09:08,423 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:09,143 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:09:09,145 [INFO] [ClientThread-4] 
+2025-04-21 00:09:09,146 [INFO] [ClientThread-3] 
+2025-04-21 00:09:09,146 [INFO] [ClientThread-4] Received: train message 01e4e984-5e9d-4484-b92d-df87072c89d6
+2025-04-21 00:09:09,147 [INFO] [ClientThread-1] 
+2025-04-21 00:09:09,147 [INFO] [ClientThread-3] Received: train message 2dc95de7-367e-49a0-a107-5642ec82944a
+2025-04-21 00:09:09,147 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:09,147 [INFO] [ClientThread-1] Received: train message a362d9b2-2914-4bd6-98a1-4979195e8589
+2025-04-21 00:09:09,147 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:09,149 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:19,504 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:09:20,548 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:09:22,544 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:09:23,439 [INFO] [ClientThread-1] 
+2025-04-21 00:09:23,439 [INFO] [ClientThread-1] Received: evaluate message 44a59072-1fe3-43d6-aa60-8cefdc4e8a21
+2025-04-21 00:09:23,439 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:23,915 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:09:23,917 [INFO] [ClientThread-5] 
+2025-04-21 00:09:23,918 [INFO] [ClientThread-1] 
+2025-04-21 00:09:23,918 [INFO] [ClientThread-5] Received: train message 80817b40-e108-4c0c-a29a-68f081bb0dc5
+2025-04-21 00:09:23,918 [INFO] [ClientThread-3] 
+2025-04-21 00:09:23,918 [INFO] [ClientThread-1] Received: train message 010706f5-1301-4ad6-8110-e3e2bbf259dc
+2025-04-21 00:09:23,918 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:23,918 [INFO] [ClientThread-3] Received: train message 003319c5-d3bb-4561-9eb9-bcab2971916f
+2025-04-21 00:09:23,919 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:23,920 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:32,594 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:09:33,964 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:09:35,349 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:09:36,212 [INFO] [ClientThread-5] 
+2025-04-21 00:09:36,212 [INFO] [ClientThread-5] Received: evaluate message 5af63bae-68e6-4528-be14-3a94dfed4a48
+2025-04-21 00:09:36,212 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:36,680 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:09:36,682 [INFO] [ClientThread-2] 
+2025-04-21 00:09:36,683 [INFO] [ClientThread-1] 
+2025-04-21 00:09:36,683 [INFO] [ClientThread-3] 
+2025-04-21 00:09:36,683 [INFO] [ClientThread-2] Received: train message 183c2500-a71e-48f7-bea6-45c96f457c24
+2025-04-21 00:09:36,683 [INFO] [ClientThread-1] Received: train message 2137bcbf-d78d-41ff-9eb8-99220c344a24
+2025-04-21 00:09:36,683 [INFO] [ClientThread-3] Received: train message 93498546-ed40-4274-bf75-0b10b0fbd1b7
+2025-04-21 00:09:36,683 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:36,684 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:36,684 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:46,196 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:09:46,538 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:09:48,786 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:09:49,699 [INFO] [ClientThread-3] 
+2025-04-21 00:09:49,699 [INFO] [ClientThread-3] Received: evaluate message 4d9ea138-c7ea-40a6-a482-534bb59e9323
+2025-04-21 00:09:49,700 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:50,159 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:09:50,162 [INFO] [ClientThread-3] 
+2025-04-21 00:09:50,163 [INFO] [ClientThread-1] 
+2025-04-21 00:09:50,163 [INFO] [ClientThread-3] Received: train message ad029bf2-7e10-4e59-9c5a-e7b45ec91bce
+2025-04-21 00:09:50,163 [INFO] [ClientThread-1] Received: train message 04beb78c-e4af-4886-816c-24c5ddd6ffdb
+2025-04-21 00:09:50,163 [INFO] [ClientThread-5] 
+2025-04-21 00:09:50,163 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:50,163 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:09:50,164 [INFO] [ClientThread-5] Received: train message 0eb915c4-d809-4e69-abaa-d6fc1273b379
+2025-04-21 00:09:50,167 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:00,083 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:10:01,241 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:10:01,247 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:10:02,097 [INFO] [ClientThread-3] 
+2025-04-21 00:10:02,098 [INFO] [ClientThread-3] Received: evaluate message 7002a318-ced1-43e0-99ab-81d41c6fa236
+2025-04-21 00:10:02,098 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:02,556 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:10:02,558 [INFO] [ClientThread-1] 
+2025-04-21 00:10:02,558 [INFO] [ClientThread-1] Received: train message 95b408e3-4112-4184-a806-07eedb353c6e
+2025-04-21 00:10:02,559 [INFO] [ClientThread-5] 
+2025-04-21 00:10:02,559 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:02,560 [INFO] [ClientThread-2] 
+2025-04-21 00:10:02,560 [INFO] [ClientThread-5] Received: train message e61306d4-da86-48e3-88bd-da8fad26590a
+2025-04-21 00:10:02,561 [INFO] [ClientThread-2] Received: train message 1ea689a5-4958-4722-8faa-c01510af9a8f
+2025-04-21 00:10:02,562 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:02,562 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:12,273 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:10:15,308 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:10:16,780 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:10:17,720 [INFO] [ClientThread-3] 
+2025-04-21 00:10:17,720 [INFO] [ClientThread-3] Received: evaluate message 492aa259-c36a-4ede-afe8-27327aa635f5
+2025-04-21 00:10:17,721 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:18,198 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:10:18,200 [INFO] [ClientThread-5] 
+2025-04-21 00:10:18,200 [INFO] [ClientThread-5] Received: train message 8e938aff-c294-42a1-89cb-c2b37e29a80e
+2025-04-21 00:10:18,200 [INFO] [ClientThread-4] 
+2025-04-21 00:10:18,201 [INFO] [ClientThread-1] 
+2025-04-21 00:10:18,201 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:18,201 [INFO] [ClientThread-4] Received: train message 4c775bb8-c961-4718-9f1e-5293004722cf
+2025-04-21 00:10:18,201 [INFO] [ClientThread-1] Received: train message 924ef9d3-f42a-4559-a163-8560f317a767
+2025-04-21 00:10:18,203 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:18,203 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:28,300 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:10:28,970 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:10:29,729 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:10:30,624 [INFO] [ClientThread-5] 
+2025-04-21 00:10:30,624 [INFO] [ClientThread-5] Received: evaluate message ce2f46e8-c817-4541-ad45-b9ff8dbd1291
+2025-04-21 00:10:30,624 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:10:31,098 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:10:31,104 [INFO] [ClientThread-1] 
+2025-04-21 00:10:31,104 [INFO] [ClientThread-2] 
+2025-04-21 00:10:31,105 [INFO] [ClientThread-3] 
+2025-04-21 00:10:31,105 [INFO] [ClientThread-1] Received: reconnect message b6aad4f5-e3ff-467c-bc3d-640be94ea29c
+2025-04-21 00:10:31,105 [INFO] [ClientThread-4] 
+2025-04-21 00:10:31,105 [INFO] [ClientThread-5] 
+2025-04-21 00:10:31,105 [INFO] [ClientThread-2] Received: reconnect message b8c74ec0-c9ce-466a-bf3f-e90d19f61ff5
+2025-04-21 00:10:31,106 [INFO] [ClientThread-3] Received: reconnect message c529382e-862a-4381-a561-b69a8bdbe1f6
+2025-04-21 00:10:31,114 [INFO] [ClientThread-4] Received: reconnect message aa4e5188-6e62-484f-be47-bef8a7632f92
+2025-04-21 00:10:31,115 [INFO] [ClientThread-5] Received: reconnect message 1d21ddfc-bc99-477a-af43-1077720cfb7f
+2025-04-21 00:10:31,124 [DEBUG] [ClientThread-2] gRPC channel closed
+2025-04-21 00:10:31,124 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-21 00:10:31,124 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-21 00:10:31,124 [DEBUG] [ClientThread-4] gRPC channel closed
+2025-04-21 00:10:31,124 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-21 00:10:31,124 [INFO] [ClientThread-2] Disconnect and shut down
+2025-04-21 00:10:31,124 [INFO] [ClientThread-3] Disconnect and shut down
+2025-04-21 00:10:31,125 [INFO] [ClientThread-5] Disconnect and shut down
+2025-04-21 00:10:31,125 [INFO] [ClientThread-2] ✅ Client-2 finished.
+2025-04-21 00:10:31,126 [INFO] [ClientThread-3] ✅ Client-3 finished.
+2025-04-21 00:10:31,125 [INFO] [ClientThread-4] Disconnect and shut down
+2025-04-21 00:10:31,126 [INFO] [ClientThread-5] ✅ Client-5 finished.
+2025-04-21 00:10:31,125 [INFO] [ClientThread-1] Disconnect and shut down
+2025-04-21 00:10:31,142 [INFO] [ClientThread-4] ✅ Client-4 finished.
+2025-04-21 00:10:31,149 [INFO] [ClientThread-1] ✅ Client-1 finished.
+2025-04-21 00:10:31,154 [INFO] [MainThread] ✅ All clients finished. Starting final evaluation...
+2025-04-21 00:10:31,294 [ERROR] [MainThread] ❌ Final evaluation failed
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 51, in evaluate_global_model
+    model = create_model(input_dim=X_test.shape[1], optimizer_type=optimizer)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: create_model() got an unexpected keyword argument 'input_dim'
+2025-04-21 00:28:20,472 [INFO] [MainThread] 📦 Loading and splitting dataset...
+2025-04-21 00:28:20,570 [INFO] [MainThread] ⏳ Waiting 5 seconds for server to be ready...
+2025-04-21 00:28:25,578 [INFO] [ClientThread-1] 🚀 Client-1 attempting to connect...
+2025-04-21 00:28:25,720 [WARNING] [ClientThread-1] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:28:25,739 [DEBUG] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:28:25,742 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:28:25,746 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.CONNECTING
+2025-04-21 00:28:25,753 [DEBUG] [Thread-6 (_run)] ChannelConnectivity.READY
+2025-04-21 00:28:27,585 [INFO] [ClientThread-2] 🚀 Client-2 attempting to connect...
+2025-04-21 00:28:27,628 [WARNING] [ClientThread-2] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:28:27,629 [DEBUG] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:28:27,629 [DEBUG] [Thread-8 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:28:27,630 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.CONNECTING
+2025-04-21 00:28:27,630 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.READY
+2025-04-21 00:28:27,634 [INFO] [ClientThread-2] 
+2025-04-21 00:28:27,634 [INFO] [ClientThread-2] Received: train message b6d3e317-8f93-499b-9eb3-1988be22f019
+2025-04-21 00:28:27,634 [INFO] [ClientThread-1] 
+2025-04-21 00:28:27,634 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:28:27,635 [INFO] [ClientThread-1] Received: train message f557f626-5f73-4457-878e-0b974e73dfff
+2025-04-21 00:28:27,637 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:28:29,588 [INFO] [ClientThread-3] 🚀 Client-3 attempting to connect...
+2025-04-21 00:28:29,758 [WARNING] [ClientThread-3] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:28:29,760 [DEBUG] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:28:29,763 [DEBUG] [Thread-13 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:28:29,781 [DEBUG] [Thread-16 (_run)] ChannelConnectivity.READY
+2025-04-21 00:28:31,596 [INFO] [ClientThread-4] 🚀 Client-4 attempting to connect...
+2025-04-21 00:28:31,657 [WARNING] [ClientThread-4] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:28:31,658 [DEBUG] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:28:31,659 [DEBUG] [Thread-20 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:28:31,767 [DEBUG] [Thread-21 (_run)] ChannelConnectivity.READY
+2025-04-21 00:28:33,602 [INFO] [ClientThread-5] 🚀 Client-5 attempting to connect...
+2025-04-21 00:28:33,649 [WARNING] [ClientThread-5] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:28:33,650 [DEBUG] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:28:33,660 [DEBUG] [Thread-24 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:28:33,661 [DEBUG] [Thread-24 (_run)] ChannelConnectivity.READY
+2025-04-21 00:28:42,432 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:28:43,365 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:28:44,305 [INFO] [ClientThread-5] 
+2025-04-21 00:28:44,305 [INFO] [ClientThread-5] Received: evaluate message d643da5a-52f9-45c1-a8fb-a605992ccce8
+2025-04-21 00:28:44,306 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:28:45,153 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:28:45,154 [INFO] [ClientThread-2] 
+2025-04-21 00:28:45,155 [INFO] [ClientThread-1] 
+2025-04-21 00:28:45,155 [INFO] [ClientThread-3] 
+2025-04-21 00:28:45,155 [INFO] [ClientThread-2] Received: train message 214befbf-0a83-4ed1-8d93-a634a59a08fd
+2025-04-21 00:28:45,156 [INFO] [ClientThread-1] Received: train message 2288035d-aa78-46a0-b23b-adc35653333c
+2025-04-21 00:28:45,156 [INFO] [ClientThread-3] Received: train message 445dfa06-077e-4f69-a79e-39606d06b371
+2025-04-21 00:28:45,156 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:28:45,156 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:28:45,156 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:28:57,372 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:28:59,065 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:29:01,143 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:29:02,056 [INFO] [ClientThread-5] 
+2025-04-21 00:29:02,056 [INFO] [ClientThread-5] Received: evaluate message 0125a8ed-90eb-4ce6-8d00-2393eae008f5
+2025-04-21 00:29:02,057 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:02,533 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:29:02,536 [INFO] [ClientThread-1] 
+2025-04-21 00:29:02,536 [INFO] [ClientThread-1] Received: train message 8e1c577f-83e9-47a0-9809-497dded5234e
+2025-04-21 00:29:02,536 [INFO] [ClientThread-4] 
+2025-04-21 00:29:02,536 [INFO] [ClientThread-2] 
+2025-04-21 00:29:02,536 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:02,536 [INFO] [ClientThread-4] Received: train message af472ddc-ae8d-4894-9105-4edd9992aa43
+2025-04-21 00:29:02,536 [INFO] [ClientThread-2] Received: train message b5e20abd-122d-4852-a4f3-31c6449c9a33
+2025-04-21 00:29:02,538 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:02,539 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:12,279 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:29:14,804 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:29:16,624 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:29:17,479 [INFO] [ClientThread-3] 
+2025-04-21 00:29:17,479 [INFO] [ClientThread-3] Received: evaluate message 8e8b5861-b186-4a26-8c8a-5a3de912301d
+2025-04-21 00:29:17,480 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:18,189 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:29:18,191 [INFO] [ClientThread-4] 
+2025-04-21 00:29:18,192 [INFO] [ClientThread-3] 
+2025-04-21 00:29:18,192 [INFO] [ClientThread-1] 
+2025-04-21 00:29:18,192 [INFO] [ClientThread-4] Received: train message 9e876883-4dae-42d1-9329-862c03946135
+2025-04-21 00:29:18,192 [INFO] [ClientThread-3] Received: train message ef442c11-8075-43af-99cf-08126cbfd28c
+2025-04-21 00:29:18,192 [INFO] [ClientThread-1] Received: train message 98f6fe81-61e6-4afc-b5c2-69df8291405e
+2025-04-21 00:29:18,192 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:18,193 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:18,193 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:28,352 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:29:29,890 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:29:32,110 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:29:33,379 [INFO] [ClientThread-5] 
+2025-04-21 00:29:33,379 [INFO] [ClientThread-5] Received: evaluate message fb3e28df-5523-4244-b1d4-ab6adbeee6b7
+2025-04-21 00:29:33,379 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:33,860 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:29:33,862 [INFO] [ClientThread-3] 
+2025-04-21 00:29:33,862 [INFO] [ClientThread-4] 
+2025-04-21 00:29:33,862 [INFO] [ClientThread-3] Received: train message fa72868c-2e85-400e-a506-dc1c9f833fec
+2025-04-21 00:29:33,862 [INFO] [ClientThread-4] Received: train message 89e402a9-bcb1-421c-9b20-bccb095e16ac
+2025-04-21 00:29:33,863 [INFO] [ClientThread-2] 
+2025-04-21 00:29:33,863 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:33,863 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:33,863 [INFO] [ClientThread-2] Received: train message 6d6598e3-8082-4fb3-80e8-db6d4d0ddcb9
+2025-04-21 00:29:33,867 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:43,725 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:29:43,909 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:29:45,224 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:29:46,094 [INFO] [ClientThread-4] 
+2025-04-21 00:29:46,094 [INFO] [ClientThread-4] Received: evaluate message ed97b612-e72b-4ab5-8924-076b78c69819
+2025-04-21 00:29:46,095 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:46,813 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:29:46,815 [INFO] [ClientThread-3] 
+2025-04-21 00:29:46,815 [INFO] [ClientThread-3] Received: train message 4fe056a0-2190-499b-87d7-2bdb2dc5124a
+2025-04-21 00:29:46,815 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:46,816 [INFO] [ClientThread-4] 
+2025-04-21 00:29:46,816 [INFO] [ClientThread-5] 
+2025-04-21 00:29:46,818 [INFO] [ClientThread-4] Received: train message 994f1de5-0b73-4b66-bd39-520974130fb3
+2025-04-21 00:29:46,818 [INFO] [ClientThread-5] Received: train message 3b268489-b3f4-4155-8b1a-9b6c1c1bd776
+2025-04-21 00:29:46,818 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:46,819 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:56,047 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:29:57,700 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:29:58,125 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:29:59,004 [INFO] [ClientThread-1] 
+2025-04-21 00:29:59,005 [INFO] [ClientThread-1] Received: evaluate message 230023ea-682e-487b-a9b3-324e798fb05c
+2025-04-21 00:29:59,005 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:59,717 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:29:59,719 [INFO] [ClientThread-2] 
+2025-04-21 00:29:59,719 [INFO] [ClientThread-2] Received: train message e3ac90a6-e0e4-442e-90fb-50a78050fd4f
+2025-04-21 00:29:59,719 [INFO] [ClientThread-1] 
+2025-04-21 00:29:59,720 [INFO] [ClientThread-4] 
+2025-04-21 00:29:59,720 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:59,720 [INFO] [ClientThread-1] Received: train message 443121eb-c4c5-4539-9cf8-3ed4d4191e2d
+2025-04-21 00:29:59,720 [INFO] [ClientThread-4] Received: train message cc6f5852-8cb1-4edf-9d0d-e2621e53c07a
+2025-04-21 00:29:59,721 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:29:59,722 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:08,734 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:30:08,737 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:30:11,626 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:30:12,514 [INFO] [ClientThread-4] 
+2025-04-21 00:30:12,514 [INFO] [ClientThread-4] Received: evaluate message 514e47c9-30bd-4826-80cf-38e42a40b6c6
+2025-04-21 00:30:12,514 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:12,985 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:30:12,986 [INFO] [ClientThread-4] 
+2025-04-21 00:30:12,987 [INFO] [ClientThread-1] 
+2025-04-21 00:30:12,987 [INFO] [ClientThread-4] Received: train message 906b66f9-cecc-4952-9463-6d244a38c01b
+2025-04-21 00:30:12,987 [INFO] [ClientThread-2] 
+2025-04-21 00:30:12,987 [INFO] [ClientThread-1] Received: train message 0a73bd91-f066-4dbb-bfcb-a34254b40596
+2025-04-21 00:30:12,988 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:12,988 [INFO] [ClientThread-2] Received: train message e35a491c-22cc-4dac-8a29-321fc3f56f25
+2025-04-21 00:30:12,988 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:12,990 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:21,226 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:30:23,765 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:30:25,476 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:30:26,308 [INFO] [ClientThread-2] 
+2025-04-21 00:30:26,308 [INFO] [ClientThread-2] Received: evaluate message 900ec0e0-c0f6-4efc-874c-3ba842a76c0c
+2025-04-21 00:30:26,309 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:27,017 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:30:27,019 [INFO] [ClientThread-2] 
+2025-04-21 00:30:27,019 [INFO] [ClientThread-4] 
+2025-04-21 00:30:27,020 [INFO] [ClientThread-1] 
+2025-04-21 00:30:27,020 [INFO] [ClientThread-2] Received: train message cdaffe69-24a9-441e-8397-3689517e38cf
+2025-04-21 00:30:27,020 [INFO] [ClientThread-4] Received: train message 054a5fb6-9d7f-47d8-9661-bbe647b6cf22
+2025-04-21 00:30:27,020 [INFO] [ClientThread-1] Received: train message 4cae61ef-4d7e-49a3-b046-d43410f028b5
+2025-04-21 00:30:27,020 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:27,020 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:27,020 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:36,450 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:30:36,771 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:30:38,967 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:30:40,226 [INFO] [ClientThread-1] 
+2025-04-21 00:30:40,227 [INFO] [ClientThread-1] Received: evaluate message 396dcc81-958a-4c31-9e4f-04ca51442389
+2025-04-21 00:30:40,228 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:40,736 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:30:40,739 [INFO] [ClientThread-1] 
+2025-04-21 00:30:40,739 [INFO] [ClientThread-3] 
+2025-04-21 00:30:40,740 [INFO] [ClientThread-4] 
+2025-04-21 00:30:40,740 [INFO] [ClientThread-1] Received: train message 8a91a678-7281-443d-b7b9-5be5ea0cb4dd
+2025-04-21 00:30:40,740 [INFO] [ClientThread-3] Received: train message 2d25f9ac-0cbc-494b-8e7a-0fc739dc57b3
+2025-04-21 00:30:40,740 [INFO] [ClientThread-4] Received: train message 7e399304-39b5-4ac8-84d4-2df1e6ea2385
+2025-04-21 00:30:40,740 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:40,741 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:40,741 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:49,158 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:30:51,486 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:30:52,067 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:30:52,944 [INFO] [ClientThread-5] 
+2025-04-21 00:30:52,945 [INFO] [ClientThread-5] Received: evaluate message c0b8280d-18eb-4098-8bba-fe6482d527f5
+2025-04-21 00:30:52,945 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:30:53,422 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:30:53,425 [INFO] [ClientThread-1] 
+2025-04-21 00:30:53,425 [INFO] [ClientThread-2] 
+2025-04-21 00:30:53,426 [INFO] [ClientThread-4] 
+2025-04-21 00:30:53,426 [INFO] [ClientThread-3] 
+2025-04-21 00:30:53,426 [INFO] [ClientThread-5] 
+2025-04-21 00:30:53,426 [INFO] [ClientThread-1] Received: reconnect message 9ed36db9-5d61-46c0-8151-af7ffcdf0196
+2025-04-21 00:30:53,426 [INFO] [ClientThread-2] Received: reconnect message 36dc1f79-e86b-4839-9c54-de4550a9e1cd
+2025-04-21 00:30:53,426 [INFO] [ClientThread-4] Received: reconnect message 9a1cd3ad-fc6e-4150-bdf4-dbc2271a8ec1
+2025-04-21 00:30:53,426 [INFO] [ClientThread-3] Received: reconnect message 862ee6ac-39ba-4cf6-b485-de0ab5b5f2d6
+2025-04-21 00:30:53,426 [INFO] [ClientThread-5] Received: reconnect message e0cc4626-4ea8-4404-8c61-915f6b03f1e6
+2025-04-21 00:30:53,437 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-21 00:30:53,437 [DEBUG] [ClientThread-2] gRPC channel closed
+2025-04-21 00:30:53,437 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-21 00:30:53,437 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-21 00:30:53,437 [DEBUG] [ClientThread-4] gRPC channel closed
+2025-04-21 00:30:53,437 [INFO] [ClientThread-5] Disconnect and shut down
+2025-04-21 00:30:53,437 [INFO] [ClientThread-2] Disconnect and shut down
+2025-04-21 00:30:53,438 [INFO] [ClientThread-1] Disconnect and shut down
+2025-04-21 00:30:53,438 [INFO] [ClientThread-3] Disconnect and shut down
+2025-04-21 00:30:53,438 [INFO] [ClientThread-4] Disconnect and shut down
+2025-04-21 00:30:53,438 [INFO] [ClientThread-5] ✅ Client-5 finished.
+2025-04-21 00:30:53,438 [INFO] [ClientThread-2] ✅ Client-2 finished.
+2025-04-21 00:30:53,439 [INFO] [ClientThread-1] ✅ Client-1 finished.
+2025-04-21 00:30:53,439 [INFO] [ClientThread-3] ✅ Client-3 finished.
+2025-04-21 00:30:53,446 [INFO] [ClientThread-4] ✅ Client-4 finished.
+2025-04-21 00:30:53,458 [INFO] [MainThread] ✅ All clients finished. Starting final evaluation...
+2025-04-21 00:30:53,614 [ERROR] [MainThread] ❌ Final evaluation failed
+Traceback (most recent call last):
+  File "/Users/pradipyadav/Documents/Academics/Sem6/Mini Project/Imple/Flower_FL 2/main.py", line 56, in evaluate_global_model
+    model.set_weights(global_weights)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/layer.py", line 698, in set_weights
+    if len(layer_weights) != len(weights):
+                             ^^^^^^^^^^^^
+TypeError: object of type 'Parameters' has no len()
+2025-04-21 00:36:32,659 [INFO] [MainThread] 📦 Loading and splitting dataset...
+2025-04-21 00:36:32,748 [INFO] [MainThread] ⏳ Waiting 5 seconds for server to be ready...
+2025-04-21 00:36:37,756 [INFO] [ClientThread-1] 🚀 Client-1 attempting to connect...
+2025-04-21 00:36:37,851 [WARNING] [ClientThread-1] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:36:37,872 [DEBUG] [ClientThread-1] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:36:37,874 [DEBUG] [Thread-2 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:36:37,884 [DEBUG] [Thread-5 (_run)] ChannelConnectivity.CONNECTING
+2025-04-21 00:36:37,884 [DEBUG] [Thread-6 (_run)] ChannelConnectivity.READY
+2025-04-21 00:36:39,763 [INFO] [ClientThread-2] 🚀 Client-2 attempting to connect...
+2025-04-21 00:36:39,811 [WARNING] [ClientThread-2] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:36:39,811 [DEBUG] [ClientThread-2] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:36:39,812 [DEBUG] [Thread-9 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:36:39,817 [DEBUG] [Thread-11 (_run)] ChannelConnectivity.READY
+2025-04-21 00:36:39,819 [INFO] [ClientThread-1] 
+2025-04-21 00:36:39,820 [INFO] [ClientThread-2] 
+2025-04-21 00:36:39,820 [INFO] [ClientThread-1] Received: train message 288254df-1237-4831-a471-b9b2558d4eb8
+2025-04-21 00:36:39,820 [INFO] [ClientThread-2] Received: train message ebe9efe1-4cbd-481d-b4d3-b72a792c28c2
+2025-04-21 00:36:39,821 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:36:39,821 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:36:41,775 [INFO] [ClientThread-3] 🚀 Client-3 attempting to connect...
+2025-04-21 00:36:41,969 [WARNING] [ClientThread-3] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:36:41,970 [DEBUG] [ClientThread-3] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:36:41,972 [DEBUG] [Thread-14 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:36:42,039 [DEBUG] [Thread-16 (_run)] ChannelConnectivity.READY
+2025-04-21 00:36:43,785 [INFO] [ClientThread-4] 🚀 Client-4 attempting to connect...
+2025-04-21 00:36:43,825 [WARNING] [ClientThread-4] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:36:43,826 [DEBUG] [ClientThread-4] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:36:43,827 [DEBUG] [Thread-18 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:36:43,827 [DEBUG] [Thread-21 (_run)] ChannelConnectivity.READY
+2025-04-21 00:36:45,788 [INFO] [ClientThread-5] 🚀 Client-5 attempting to connect...
+2025-04-21 00:36:45,825 [WARNING] [ClientThread-5] DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+        
+2025-04-21 00:36:45,826 [DEBUG] [ClientThread-5] Opened insecure gRPC connection (no certificates were passed)
+2025-04-21 00:36:45,836 [DEBUG] [Thread-25 (_run)] ChannelConnectivity.IDLE
+2025-04-21 00:36:45,836 [DEBUG] [Thread-26 (_run)] ChannelConnectivity.READY
+2025-04-21 00:36:51,552 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:36:52,503 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:36:53,412 [INFO] [ClientThread-4] 
+2025-04-21 00:36:53,412 [INFO] [ClientThread-4] Received: evaluate message 9339a17c-b6ac-401d-a3cc-7c2880f32fb2
+2025-04-21 00:36:53,412 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:36:54,218 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:36:54,220 [INFO] [ClientThread-1] 
+2025-04-21 00:36:54,220 [INFO] [ClientThread-1] Received: train message 6d32245b-15b1-42a5-b5f6-e1b1ae1fd4aa
+2025-04-21 00:36:54,220 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:36:54,222 [INFO] [ClientThread-2] 
+2025-04-21 00:36:54,222 [INFO] [ClientThread-2] Received: train message 8382c8b5-a348-4c9d-8429-c8a829e897f9
+2025-04-21 00:36:54,223 [INFO] [ClientThread-4] 
+2025-04-21 00:36:54,223 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:36:54,223 [INFO] [ClientThread-4] Received: train message 89b76baf-dc8f-4e70-9c2f-ec17fcb63a13
+2025-04-21 00:36:54,226 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:02,576 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:37:04,175 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:37:06,179 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:37:07,043 [INFO] [ClientThread-3] 
+2025-04-21 00:37:07,043 [INFO] [ClientThread-3] Received: evaluate message 33b58cb0-54e8-4085-b44a-f040dfe91a24
+2025-04-21 00:37:07,043 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:07,838 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:37:07,840 [INFO] [ClientThread-5] 
+2025-04-21 00:37:07,840 [INFO] [ClientThread-1] 
+2025-04-21 00:37:07,840 [INFO] [ClientThread-5] Received: train message 1b75fda6-6275-4c41-a011-0360361e4efb
+2025-04-21 00:37:07,840 [INFO] [ClientThread-4] 
+2025-04-21 00:37:07,841 [INFO] [ClientThread-1] Received: train message 4be5f09b-2252-415b-9528-0d8672f4cbc4
+2025-04-21 00:37:07,841 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:07,841 [INFO] [ClientThread-4] Received: train message 7994e420-58ef-4c45-8a4b-e77da90c8213
+2025-04-21 00:37:07,841 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:07,843 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:16,382 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:37:17,160 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:37:19,453 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:37:20,332 [INFO] [ClientThread-1] 
+2025-04-21 00:37:20,332 [INFO] [ClientThread-1] Received: evaluate message 9f61b27c-f8ec-46dd-8f88-2f8cbef6eb02
+2025-04-21 00:37:20,333 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:21,022 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:37:21,024 [INFO] [ClientThread-1] 
+2025-04-21 00:37:21,024 [INFO] [ClientThread-4] 
+2025-04-21 00:37:21,025 [INFO] [ClientThread-2] 
+2025-04-21 00:37:21,025 [INFO] [ClientThread-1] Received: train message 4706dd14-8c5e-41aa-8daa-f92b5e81167f
+2025-04-21 00:37:21,025 [INFO] [ClientThread-4] Received: train message 45d652aa-accf-43c4-8d8a-e04e8c10d8ec
+2025-04-21 00:37:21,025 [INFO] [ClientThread-2] Received: train message e09b68f5-b29c-423c-bce4-715e383db411
+2025-04-21 00:37:21,025 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:21,025 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:21,025 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:28,687 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:37:28,841 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:37:32,010 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:37:33,083 [INFO] [ClientThread-1] 
+2025-04-21 00:37:33,083 [INFO] [ClientThread-1] Received: evaluate message d81adf39-47ca-4cc6-b345-87d2ff296f31
+2025-04-21 00:37:33,083 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:33,547 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:37:33,549 [INFO] [ClientThread-4] 
+2025-04-21 00:37:33,550 [INFO] [ClientThread-1] 
+2025-04-21 00:37:33,550 [INFO] [ClientThread-2] 
+2025-04-21 00:37:33,550 [INFO] [ClientThread-4] Received: train message a529966e-e681-497e-ad29-a37898bfa460
+2025-04-21 00:37:33,550 [INFO] [ClientThread-1] Received: train message d7e16956-804a-4927-bf1e-ce70ce573663
+2025-04-21 00:37:33,550 [INFO] [ClientThread-2] Received: train message 4191303f-c22e-42b6-b12a-19a412f5efb1
+2025-04-21 00:37:33,550 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:33,551 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:33,551 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:41,283 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:37:42,057 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:37:44,764 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:37:45,648 [INFO] [ClientThread-3] 
+2025-04-21 00:37:45,649 [INFO] [ClientThread-3] Received: evaluate message 9e0be76b-4a6b-4cee-be8d-7a59ebd92765
+2025-04-21 00:37:45,649 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:46,113 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:37:46,115 [INFO] [ClientThread-4] 
+2025-04-21 00:37:46,115 [INFO] [ClientThread-4] Received: train message 84b59398-0013-498c-8725-cc7d170029c2
+2025-04-21 00:37:46,115 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:46,116 [INFO] [ClientThread-3] 
+2025-04-21 00:37:46,116 [INFO] [ClientThread-5] 
+2025-04-21 00:37:46,118 [INFO] [ClientThread-3] Received: train message 061c17ba-9062-4217-90e2-e25f32c8b76a
+2025-04-21 00:37:46,118 [INFO] [ClientThread-5] Received: train message 7b22055d-b5eb-49a5-86fe-469b29294768
+2025-04-21 00:37:46,119 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:46,119 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:55,575 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:37:56,152 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:37:57,868 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:37:58,835 [INFO] [ClientThread-2] 
+2025-04-21 00:37:58,835 [INFO] [ClientThread-2] Received: evaluate message 38945184-d297-4613-b9a3-e8100f834bc4
+2025-04-21 00:37:58,835 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:59,544 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:37:59,546 [INFO] [ClientThread-2] 
+2025-04-21 00:37:59,546 [INFO] [ClientThread-3] 
+2025-04-21 00:37:59,547 [INFO] [ClientThread-4] 
+2025-04-21 00:37:59,547 [INFO] [ClientThread-2] Received: train message a3056f71-1920-4124-9d79-6a555032b824
+2025-04-21 00:37:59,547 [INFO] [ClientThread-3] Received: train message b48f2c90-ffbc-4cb4-8923-5a31f649f1fa
+2025-04-21 00:37:59,547 [INFO] [ClientThread-4] Received: train message b812a974-af32-4cb9-9e05-f3d19d7cb49a
+2025-04-21 00:37:59,547 [WARNING] [ClientThread-2] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:59,547 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:37:59,548 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:09,092 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:38:10,906 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:38:12,823 [INFO] [ClientThread-2] Sent reply
+2025-04-21 00:38:13,718 [INFO] [ClientThread-1] 
+2025-04-21 00:38:13,719 [INFO] [ClientThread-1] Received: evaluate message 6ccbd787-01b8-47f6-b4e0-0c09dfb45e9e
+2025-04-21 00:38:13,719 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:14,200 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:38:14,202 [INFO] [ClientThread-4] 
+2025-04-21 00:38:14,202 [INFO] [ClientThread-1] 
+2025-04-21 00:38:14,202 [INFO] [ClientThread-3] 
+2025-04-21 00:38:14,203 [INFO] [ClientThread-1] Received: train message 56854ae3-7fa7-4732-afcd-7e4e105c8c2f
+2025-04-21 00:38:14,203 [INFO] [ClientThread-4] Received: train message 7c6e9e57-2aef-423e-8164-1873d1302b58
+2025-04-21 00:38:14,203 [INFO] [ClientThread-3] Received: train message f7935490-225d-4fdf-9e1c-919231f1bc52
+2025-04-21 00:38:14,203 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:14,203 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:14,203 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:22,355 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:38:23,010 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:38:23,852 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:38:24,747 [INFO] [ClientThread-1] 
+2025-04-21 00:38:24,747 [INFO] [ClientThread-1] Received: evaluate message fa6fe095-b261-4398-bbd8-f2a00acf12f1
+2025-04-21 00:38:24,747 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:25,231 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:38:25,232 [INFO] [ClientThread-5] 
+2025-04-21 00:38:25,233 [INFO] [ClientThread-3] 
+2025-04-21 00:38:25,233 [INFO] [ClientThread-1] 
+2025-04-21 00:38:25,233 [INFO] [ClientThread-5] Received: train message 48f9174f-f28d-4610-b101-72efb69ad0c1
+2025-04-21 00:38:25,233 [INFO] [ClientThread-3] Received: train message 6184073e-6461-40f6-b631-50b5c0b0dca7
+2025-04-21 00:38:25,234 [INFO] [ClientThread-1] Received: train message 86764a25-a421-4611-84e4-dfc6432ad847
+2025-04-21 00:38:25,234 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:25,234 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:25,234 [WARNING] [ClientThread-1] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:34,197 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:38:35,544 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:38:35,718 [INFO] [ClientThread-1] Sent reply
+2025-04-21 00:38:36,597 [INFO] [ClientThread-3] 
+2025-04-21 00:38:36,597 [INFO] [ClientThread-3] Received: evaluate message 815ef21e-c510-4121-99bf-451000809963
+2025-04-21 00:38:36,598 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:37,064 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:38:37,066 [INFO] [ClientThread-4] 
+2025-04-21 00:38:37,066 [INFO] [ClientThread-4] Received: train message 8bb4932d-3015-4fd9-bdb4-90219c579891
+2025-04-21 00:38:37,066 [WARNING] [ClientThread-4] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:37,067 [INFO] [ClientThread-5] 
+2025-04-21 00:38:37,068 [INFO] [ClientThread-3] 
+2025-04-21 00:38:37,068 [INFO] [ClientThread-5] Received: train message 3c70c2dd-7f0a-4365-89b9-f8ffdaa46c69
+2025-04-21 00:38:37,069 [INFO] [ClientThread-3] Received: train message 7f362339-febc-43a4-99bd-4921f202c062
+2025-04-21 00:38:37,070 [WARNING] [ClientThread-5] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:37,070 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:46,906 [INFO] [ClientThread-5] Sent reply
+2025-04-21 00:38:48,857 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:38:50,294 [INFO] [ClientThread-4] Sent reply
+2025-04-21 00:38:51,177 [INFO] [ClientThread-3] 
+2025-04-21 00:38:51,178 [INFO] [ClientThread-3] Received: evaluate message e61acd58-cff3-4514-a277-b9a6167301ab
+2025-04-21 00:38:51,178 [WARNING] [ClientThread-3] Deprecation Warning: The `client_fn` function must return an instance of `Client`, but an instance of `NumpyClient` was returned. Please use `NumPyClient.to_client()` method to convert it to `Client`.
+2025-04-21 00:38:51,655 [INFO] [ClientThread-3] Sent reply
+2025-04-21 00:38:51,659 [INFO] [ClientThread-1] 
+2025-04-21 00:38:51,659 [INFO] [ClientThread-3] 
+2025-04-21 00:38:51,659 [INFO] [ClientThread-2] 
+2025-04-21 00:38:51,659 [INFO] [ClientThread-1] Received: reconnect message b4cbe664-6338-4ed1-a677-442c8189c92f
+2025-04-21 00:38:51,659 [INFO] [ClientThread-4] 
+2025-04-21 00:38:51,660 [INFO] [ClientThread-5] 
+2025-04-21 00:38:51,660 [INFO] [ClientThread-3] Received: reconnect message 11c215d9-222b-4863-b6ff-5121aa3b4e76
+2025-04-21 00:38:51,660 [INFO] [ClientThread-2] Received: reconnect message 755eec86-35dd-45a4-8fc2-b6bc9f7655af
+2025-04-21 00:38:51,668 [INFO] [ClientThread-4] Received: reconnect message 52a26b68-d248-4bd8-b26d-31c436ee07f9
+2025-04-21 00:38:51,668 [INFO] [ClientThread-5] Received: reconnect message 1182751d-098e-44f2-96cc-004ec0ea3c6f
+2025-04-21 00:38:51,672 [DEBUG] [ClientThread-3] gRPC channel closed
+2025-04-21 00:38:51,673 [DEBUG] [ClientThread-2] gRPC channel closed
+2025-04-21 00:38:51,673 [DEBUG] [ClientThread-5] gRPC channel closed
+2025-04-21 00:38:51,673 [DEBUG] [ClientThread-4] gRPC channel closed
+2025-04-21 00:38:51,673 [DEBUG] [ClientThread-1] gRPC channel closed
+2025-04-21 00:38:51,673 [INFO] [ClientThread-3] Disconnect and shut down
+2025-04-21 00:38:51,673 [INFO] [ClientThread-2] Disconnect and shut down
+2025-04-21 00:38:51,673 [INFO] [ClientThread-5] Disconnect and shut down
+2025-04-21 00:38:51,673 [INFO] [ClientThread-4] Disconnect and shut down
+2025-04-21 00:38:51,673 [INFO] [ClientThread-1] Disconnect and shut down
+2025-04-21 00:38:51,674 [INFO] [ClientThread-3] ✅ Client-3 finished.
+2025-04-21 00:38:51,674 [INFO] [ClientThread-2] ✅ Client-2 finished.
+2025-04-21 00:38:51,674 [INFO] [ClientThread-5] ✅ Client-5 finished.
+2025-04-21 00:38:51,674 [INFO] [ClientThread-4] ✅ Client-4 finished.
+2025-04-21 00:38:51,682 [INFO] [ClientThread-1] ✅ Client-1 finished.
+2025-04-21 00:38:51,711 [INFO] [MainThread] ✅ All clients finished. Starting final evaluation...
+2025-04-21 00:38:51,855 [INFO] [MainThread] ✅ Loaded best global model weights.
